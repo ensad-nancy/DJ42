@@ -29,7 +29,7 @@ $.getJSON( "./assets/data.json", function( data ) {
     var id = $('.coverflow li a').index(this);
     var track = tracks[id];
 
-    $('body').css("background-image", 'url(/assets/images/'+track.filename+'.jpg)');
+    $('body').css("background-image", 'url(./assets/images/'+track.filename+'.jpg)');
   })
 
   function embedCode(vimeoId){

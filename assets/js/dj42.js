@@ -15,8 +15,10 @@ $.getJSON( "./assets/data.json", function( data ) {
     var id = $('.coverflow li a').index(this);
     var track = tracks[id];
 
+
+    $('.player, #trackTitle, .credits').html('')
     $('#trackTitle').html('0'+(id+1)+'<br/>'+track.title)
-    $('.player').html('')
+
 
     $.each(track.clips, function(key, clip){
       console.log(key, clip, $('#video'+key) );

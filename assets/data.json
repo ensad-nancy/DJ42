@@ -1,0 +1,74 @@
+{
+	"tracks": [
+		{
+			"id":1,
+			"title":"DORÉMIX367",
+			"filename":"01_doremix367",
+			"clips":[
+				{ "credits":"D.J. Sara", "videoId":193892325 },
+				{ "credits":"D.J. Marius", "videoId":193892333}
+			]
+		},
+		{
+			"id":2,
+			"title":"Chess player",
+			"filename":"02_ChessPlayer",
+			"clips":[
+				{ "credits":"D.J. Mathilde", "videoId": 193893160 },
+				{ "credits":"D.J. Léonie", "videoId": 193893172 }
+			]
+		},
+		{
+			"id":3,
+			"title":"Un jeudi après-midi",
+			"filename":"03_UnJeudi-apres-midi",
+			"clips":[
+				{ "credits":"D.J. Carla", "videoId":193893191 },
+				{ "credits":"D.J. Alix", "videoId":193893234 }
+			]
+		},
+		{
+			"id":4,
+			"title":"S'emporter violemment",
+			"filename":"04_S-emporter-violemment",
+			"clips":[
+				{ "credits":"D.J. Florence", "videoId":193893293 },
+				{ "credits":"D.J. Elyse", "videoId":193893274 }
+			]
+		},
+		{
+			"id":5,
+			"title":"Long et ponctuel",
+			"filename":"05_Long-et-Ponctuel",
+			"clips":[
+				{ "credits":"D.J. Simon", "videoId":193893375},
+				{ "credits":"D.J. Pierre", "videoId":193893303 }
+			]
+		},
+		{
+			"id":6,
+			"title":"Souffle souffle dans le culcul de l'oiseau",
+			"filename":"06_Souffle_souffle_dans_le_culcul_de_l-oiseau",
+			"clips":[
+				{ "credits":"D.J. Sophie", "videoId":193893398},
+				{ "credits":"D.J. Jeanne", "videoId":193893407 }
+			]
+		},
+		{
+			"id":7,
+			"title":"Mulleimer",
+			"filename":"07_Mulleimer",
+			"clips":[
+				{ "credits":"D.J. Caroline", "videoId":193893554}
+			]
+		},
+		{
+			"id":8,
+			"title":"10111101110011",
+			"filename":"08_10111101110011",
+			"clips":[
+				{ "credits":"D.J. Baptiste", "videoId":193893654}
+			]
+		}
+	]
+}

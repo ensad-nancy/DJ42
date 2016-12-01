@@ -6,7 +6,7 @@ $.getJSON( "./assets/data.json", function( data ) {
   $('.coverflow li').each( function(key, val){
     $(this)
       .find('a')
-      .html('<img src="/assets/images/'+tracks[key].filename+'.jpg">')
+      .html('<img src="./assets/images/'+tracks[key].filename+'.jpg">')
       .attr('id', 'track'+key)
   });
 

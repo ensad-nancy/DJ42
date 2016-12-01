@@ -29,9 +29,9 @@ $.getJSON( "./assets/data.json", function( data ) {
     var id = $('.coverflow li a').index(this);
     var track = tracks[id];
 
-    $('body').css("background-image", 'url(./assets/images/'+track.filename+'.jpg)');
+    $('#overlay').css("background-image", 'url(./assets/images/'+track.filename+'.jpg)');
   },function(){
-    $('body').css("background-image", 'none');
+    $('#overlay').css("background-image", 'none');
   })
 
   function embedCode(vimeoId){

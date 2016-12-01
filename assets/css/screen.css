@@ -9,7 +9,6 @@ body {
 	color: gold;
 	overflow: hidden;
 	text-shadow: 3px 3px 3px tomato;
-	background-size: 20vh 20vh;
 }
 #header {
 	height: 20vh;
@@ -44,6 +43,19 @@ body {
 
 	text-align: center;
 	pointer-events:none;
+}
+
+#overlay {
+
+		pointer-events:none;
+	position: absolute;
+	top: 20vh;
+	left: 20vw;
+	height: 60vh;
+	width: 60vw;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
 }
 
 #videos {

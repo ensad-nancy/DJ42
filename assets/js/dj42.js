@@ -30,6 +30,8 @@ $.getJSON( "./assets/data.json", function( data ) {
     var track = tracks[id];
 
     $('body').css("background-image", 'url(./assets/images/'+track.filename+'.jpg)');
+  },function(){
+    $('body').css("background-image", 'none');
   })
 
   function embedCode(vimeoId){
